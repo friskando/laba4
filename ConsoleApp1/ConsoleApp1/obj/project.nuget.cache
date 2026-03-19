@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gTtJJaJS4HU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\boxer\\Desktop\\YP\\laba3\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\boxer\\.nuget\\packages\\fsharp.core\\9.0.300\\fsharp.core.9.0.300.nupkg.sha512"
+  ],
+  "logs": []
+}
