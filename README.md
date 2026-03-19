@@ -17,3 +17,4 @@
 7. выводит дерево   
 
 ### Тестирование
+<img width="585" height="413" alt="Image" src="https://github.com/user-attachments/assets/b691cadc-1d24-452a-94cc-6066419f574e" />
