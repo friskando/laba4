@@ -24,16 +24,32 @@ let rec generateTree nodeCount minNumber maxNumber =
         let number = randomValue minNumber maxNumber
         insert number (generateTree (nodeCount - 1) minNumber maxNumber)
 
-let rec countCome target tree =
+let rec foldTree folder state tree =
     match tree with
-    | Empty -> 0
+    | Empty -> state
     | Node(v, left, right) ->
-        let countInLeft = countCome target left
-        let countInRight = countCome target right
-        if v = target then
-            1 + countInLeft + countInRight
-        else
-            countInLeft + countInRight
+        let stateLeft = foldTree folder state left
+        let stateMiddle = folder stateLeft v
+        let stateRight = foldTree folder stateMiddle right
+        stateRight
+
+let countCome target tree =
+    foldTree (fun count value -> 
+        if value = target then
+            count + 1 else count
+    ) 0 tree
+
+
+//let rec countCome target tree =
+//    match tree with
+//    | Empty -> 0
+//    | Node(v, left, right) ->
+//        let countInLeft = countCome target left
+//        let countInRight = countCome target right
+//        if v = target then
+//            1 + countInLeft + countInRight
+//        else
+//            countInLeft + countInRight
 
 //let rec countComeOpt target tree =
 //    match tree with
@@ -77,6 +93,6 @@ let main argv =
     if count = 0 then
         printfn "\nЧисло %d не найдено в дереве" target
     else
-        printfn "\nЧисло %d встречается в дереве %d раз" target count
+        printfn "\nЧисло %d входит в дереве %d раз" target count
     
     0
