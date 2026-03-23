@@ -17,7 +17,7 @@
 7. выводит дерево
 
 ### Тестирование
-
+<img width="433" height="342" alt="Image" src="https://github.com/user-attachments/assets/c94b6fa4-645e-4e1e-a403-ea522ded17a1" />
 
 
 
@@ -46,6 +46,8 @@
 10. так проверяем и со всеми и складываем и возвращаем через аккумулятор фолд 
 11. выводим красивое дерево и сколько схождений
 
+### Тестирование
+<img width="414" height="383" alt="Image" src="https://github.com/user-attachments/assets/28842437-1f5f-40f8-ad67-8f5dff0a528d" />
 
 
 
