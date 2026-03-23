@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ESyNH+z5Cd4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\digma\\source\\repos\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\digma\\.nuget\\packages\\fsharp.core\\11.0.100\\fsharp.core.11.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}

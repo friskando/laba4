@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="ConsoleApp4">
+    <resource name="FSharpSignatureData.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpOptimizationData.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.ConsoleApp4" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.ConsoleApp4" action="remove"></resource>
+  </assembly>
+</linker>
